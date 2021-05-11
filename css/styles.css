@@ -38,6 +38,31 @@
   top:0;
 width: 100%;
 }
+
+.prescrip{
+  position: absolute;
+  top:150px;
+  left:50px;
+}
+
+.btn {
+  border: none;
+  color: white;
+  margin-top: 20px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;}
+
+.success {background-color:#3edbf0 ;}
+.success:hover {background-color: green;}
+
+.prep-img{
+  position: absolute;
+  left: 150px;
+  top:30px;
+  height: 70px;
+  width: 70px;
+}
 body{
   margin:0;
   text-align: center;
@@ -102,8 +127,7 @@ margin: 0;
 
 .bottom-container{
 background-color: #3edbf0;
-position: relative;
-bottom:200px;
+
 }
 
 .life{
@@ -225,7 +249,7 @@ border-style:solid;
 }
 
 .about{
-  height: 500px;
+  height: 300px;
  display:inline-block;
  margin-bottom: 0;
 }
